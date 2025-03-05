@@ -1,0 +1,36 @@
+th  {
+    color:rgb(68, 10, 122)
+}
+
+table, th, td   {
+    border-color: rgb(64, 136, 172);
+    width: 500px;
+    margin: 15px;
+}
+
+h1  {
+    text-align: center;
+    color: rgb(38, 4, 73);
+}
+
+h2  {
+    text-align: center;
+    color: rgb(58, 15, 176);
+    font-style: italic;
+}
+
+h3  {
+    text-align: center;
+    color: rgb(15, 106, 176);
+}
+
+hr  {
+    border-color: rgb(52, 122, 168);
+}
+
+li  {
+    margin: 10px;
+}
+p {
+    width: 580px;
+}
