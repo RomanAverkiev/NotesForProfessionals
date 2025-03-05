@@ -6,6 +6,7 @@ table, th, td   {
     border-color: rgb(64, 136, 172);
     width: 500px;
     margin: 15px;
+    text-align: center;
 }
 
 h1  {
