@@ -35,3 +35,9 @@ li  {
 p {
     width: 580px;
 }
+.dashed-line { 
+    border: 1px dashed rgb(52, 122, 168); 
+}
+body {
+font-style: italic;
+}
