@@ -34,6 +34,8 @@ li  {
 }
 p {
     width: 580px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .dashed-line { 
     border: 1px dashed rgb(52, 122, 168); 
