@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +9,142 @@
 
     <title>Doctypes</title>
 </head>
+
 <body>
     <div>
         <h1>Doctypes</h1>
+        <table border="5">
+            <tr>
+                <td>
+                    Doctypes
+                </td>
+                <td>
+                    <p>
+                        сокращение от "тип документа" -
+                        помогает браузерам понять версию HTML,
+                        на которой написан документ,
+                        для лучшей интерпретации.
+                        Декларации Doctype
+                        не являются HTML-тегами
+                        и находятся в самом верху документа.
+                        В этой теме рассказывается о структуре
+                        и объявлении различных доктайпов в HTML
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>
+
+        </p>
     </div>
     <hr>
-   <div>
-    <table border="5">
-        <tr>
-            <th>
-                <a href="1_GettingStartedWith_HTML.html">
-                    &lt;=== Начало работы с HTML
-                </a>
-                &emsp;|&emsp;
-                <a href="3_Headings.html">Заголовки ===&gt;</a>
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <a href="contents.html">
-                    Содержание
-                </a>
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <a href="index.html">
-                    Разделы
-                </a>
-            </th>
-        </tr>
-    </table>
-   </div>
+    <div>
+        <h2>Добавление Doctype</h2>
+        <p>
+            Декларация <b>&lt;!DOCTYPE&gt;</b>
+            всегда должна располагаться
+            в верхней части HTML-документа,
+            перед тегом <b>&lt;html&gt;</b>.
+        </p>
+        <p>
+            Подробную информацию
+            о типе HTML 5 Doctype см.
+            в разделе HTML 5 Doctype
+        </p>
+        <p>
+            &lt;!DOCTYPE html&gt;
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h2>HTML 5 Doctype</h2>
+        <p>
+            HTML5 не основан на SGML
+            (Standard Generalized Markup Language
+            (Стандартный обобщенный язык разметки)),
+            и поэтому не требует ссылки на DTD
+            (Document Type Deﬁnition(Определение типа документа)).
+        </p>
+        <table border="5">
+            <tr>
+                <td>
+                    <p>
+                        Объявление HTML 5 Doctype:
+                    </p>
+                </td>
+                <td>
+                    &lt;!DOCTYPE html&gt;
+                </td>
+            </tr>
+        </table>
+        <hr class="dashed-line">
+        <h3>Нечувствительность к регистру</h3>
+        <p>
+            Согласно
+            <a href="https://html.spec.whatwg.org/multipage/syntax.html#the-doctype">
+                W3.org HTML 5 DOCTYPE Spec:
+            </a>
+        </p>
+        <ul>
+            <li>
+                <p>
+                    DOCTYPE должен состоять из следующих компонентов,
+                    расположенных в таком порядке:
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            Строка, которая является совпадением 
+                            <b>без учета регистра</b> ASCII для строки 
+                            <b>"&lt;!DOCTYPE"</b>.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <table border="2">
+            <tr>
+                <td>
+                    <p>
+                        Следующие DOCTYPE также действительны:
+                    </p>
+                </td>
+                <td>
+                    &lt;!doctype html&gt;<br><br>
+                    &lt;!dOCtyPe html&gt;<br><br>
+                    &lt;!DocTYpe html&gt;
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div>
+        <table border="5">
+            <tr>
+                <th>
+                    <a href="1_GettingStartedWith_HTML.html">
+                        &lt;=== Начало работы с HTML
+                    </a>
+                    &emsp;|&emsp;
+                    <a href="3_Headings.html">Заголовки ===&gt;</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="contents.html">
+                        Содержание
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="index.html">
+                        Разделы
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </div>
 </body>
+
 </html>
